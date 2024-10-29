@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder Party - Salón de Eventos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 2em;
+        }
+        .section-title {
+            color: #ff6f61;
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+        }
+        .about, .services, .contact {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wonder Party</h1>
+        <p>Tu mejor opción para eventos inolvidables</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <p>En Wonder Party ofrecemos el espacio perfecto para celebrar tus momentos especiales. Con instalaciones modernas, servicio profesional y un ambiente elegante, nos aseguramos de que tu evento sea inolvidable.</p>
+        </section>
+        
+        <section class="services">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <ul>
+                <li>Alquiler de salón</li>
+                <li>Decoración personalizada</li>
+                <li>Servicio de catering</li>
+                <li>Entretenimiento y música en vivo</li>
+                <li>Asesoría para eventos</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Contáctanos</h2>
+            <p>¿Interesado en reservar? Escríbenos a <a href="mailto:info@wonderparty.com">info@wonderparty.com</a> o llámanos al +52 123 456 7890.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wonder Party. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
